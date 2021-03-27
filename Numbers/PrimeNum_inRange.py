@@ -1,7 +1,7 @@
 # Prime determination method
 def Prime_series(number):
 	for iter in range(2,number):
-		if is_prime(iter) == True:
+		if is_prime(iter) is True:
 			print(iter,end = " ")
 		else:
 			pass

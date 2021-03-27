@@ -7,7 +7,7 @@ def Searcher(Lister):
     else:
         print('Number not found, goodbye')
 
-while AddFirst == True:
+while AddFirst is True:
     user_input = input("Enter Number, type End to end: ")
     try:
         val = int(user_input)
