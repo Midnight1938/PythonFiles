@@ -4,7 +4,7 @@ file_name = input("Enter file name:")
 file1 = open(file_name, "r")
 
 # dictionary named d
-d = dict() 
+d = {} 
 print("\n File Contents are:\n")
 
 # For loop to read each line one by one from the given text file
